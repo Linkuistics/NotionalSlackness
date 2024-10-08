@@ -1,30 +1,30 @@
 {
-  "name": "slack-channel-summarizer",
-  "version": "1.0.0",
-  "description": "A tool to summarize Slack channel messages and update Notion pages",
-  "main": "summarizer.ts",
-  "scripts": {
-    "start": "ts-node summarizer.ts",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "slack",
-    "notion",
-    "summarizer",
-    "openai"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "@notionhq/client": "^2.2.3",
-    "@slack/web-api": "^6.8.1",
-    "dotenv": "^16.0.3",
-    "openai": "^3.2.1"
-  },
-  "devDependencies": {
-    "@types/node": "^18.15.11",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
-  }
+    "name": "slack-channel-summarizer",
+    "version": "1.0.0",
+    "description": "A tool to summarize Slack channel messages and update Notion pages",
+    "main": "src/summarizer.ts",
+    "scripts": {
+        "start": "ts-node src/summarizer.ts",
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "slack",
+        "notion",
+        "summarizer",
+        "openai"
+    ],
+    "author": "Antony Blakey <antony.blakey@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@notionhq/client": "^2.2.3",
+        "@slack/web-api": "7.5.0",
+        "dotenv": "^16.0.3",
+        "openai": "4.67.2"
+    },
+    "devDependencies": {
+        "@types/node": "22.7.5",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.0.4"
+    }
 }

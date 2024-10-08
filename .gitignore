@@ -1,6 +1,6 @@
 .DS_Store
-.env
-.devbox
-.direnv
-node_modules
-dist
+/.env
+/.devbox
+/.direnv
+/dist
+/node_modules
